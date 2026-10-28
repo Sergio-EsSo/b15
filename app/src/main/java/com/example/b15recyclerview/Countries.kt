@@ -1,6 +1,6 @@
 package com.example.b15recyclerview
 
-class Country {
+class Countries {
 
     val nameList: MutableList<String> = mutableListOf(
         "Spain", "United Kingdom", "Mongolia",
@@ -10,20 +10,4 @@ class Country {
         "Nigeria", "Congo", "Japan", "South Korea",
         "Sudan", "Ethiopia", "Lebanon", "Belarus"
     )
-
-    fun getNameList(): List<String> {
-        return nameList
-    }
-    fun addCountry(country: String){
-        nameList.add(country)
-    }
-    fun killCountry(country: String){
-        nameList.remove(country)
-    }
-    fun removeCountryByIndex(position: Int){
-        if(position in nameList.indices){
-            nameList.removeAt()
-        }
-    }
-
 }

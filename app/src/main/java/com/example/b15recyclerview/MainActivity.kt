@@ -40,6 +40,7 @@ class MainActivity : AppCompatActivity() {
             adaptador.notifyItemRemoved(position)
         }
 
+        //explicar
         recyclerView.layoutManager = LinearLayoutManager(this)
         recyclerView.adapter = adaptador
 
